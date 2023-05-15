@@ -198,7 +198,7 @@ if(isset($_SESSION['user_id'])){
          <h3>Akram Daidoune</h3>
       </div>
 
-   </div>
+    
 
    <div class="swiper-pagination"></div>
 
@@ -222,7 +222,7 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <h3>Extra links</h3>
          <a href="user_login.php"> <i class="fas fa-angle-right"></i> Login</a>
-         <a href="user_register.php"> <i class="fas fa-angle-right"></i> Register</a>
+         <a href="user_register.php"> <i class="fas fa-angle-right"></i> Registreer</a>
          <a href="cart.php"> <i class="fas fa-angle-right"></i> Winkelwagen</a>
          <a href="orders.php"> <i class="fas fa-angle-right"></i> Bestellingen</a>
       </div>

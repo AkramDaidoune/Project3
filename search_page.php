@@ -35,7 +35,7 @@ include 'components/wishlist_cart.php';
 
 <section class="search-form">
    <form action="" method="post">
-      <input type="text" name="search_box" placeholder="search here..." maxlength="100" class="box" required>
+      <input type="text" name="search_box" placeholder="Waar ben je naar op zoek?" maxlength="100" class="box" required>
       <button type="submit" class="fas fa-search" name="search_btn"></button>
    </form>
 </section>
@@ -70,7 +70,7 @@ include 'components/wishlist_cart.php';
    <?php
          }
       }else{
-         echo '<p class="empty">no products found!</p>';
+         echo '<p class="empty">Geen gedige zoekopdracht!</p>';
       }
    }
    ?>
